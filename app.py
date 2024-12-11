@@ -6,12 +6,12 @@ import streamlit as st
 
 # Configuration of the Page
 st.set_page_config(
-    page_title="Data",
+    page_title="RevealX",
     page_icon="🔍"
 )
 
-st.title(":red[DataIQ]")
-st.subheader("Explore your data with :red[DataIQ]")
+st.title(":red[RevealX]")
+st.subheader("Reveal the Pattern and Insights :red[RevealX]")
 
 file = st.file_uploader("Drop your csv or  Excel File here",type=['csv','xlsx'])
 if(file!=None):
